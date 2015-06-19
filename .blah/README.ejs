@@ -46,53 +46,7 @@
 <% // INSTALLATION %>
 ## Installation
 
-Install this script (located in [`lib/index.js`](/lib/index.js)) via Tampermonkey (in Chrome/Chromium) or Greasemonkey (in Firefox).
-
-
-<% // Cli usage %>
-<% if (isCli) { %>
-### CLI Usage
-You can install the package globally and use it as command line tool:
-
-```sh
-$ npm i -g <%- _.pack.name %>
-```
-
-Then, run `<%- _.pack.name %> --help` and see what the cli tool can do.
-
-<% } %>
-
-<% // Show the example if there is one %>
-<% if (example) { %>
-<% var exStrPath = Path.join(example, "index.js"); %>
-<% if (!IsThere(exStrPath)) { %>
-<%   example = null; %>
-<% } %>
-<% if (example) { %>
-## Example
-
-<% if (isCli) { %>
-Here is an example how to use this package as library.
-<% } %>
-
-<% var exStr = Fs.readFileSync(exStrPath, "utf-8"); %>
-<% exStr = exStr.replace("../lib", _.pack.name) %>
-
-```js
-<%- exStr %>
-```
-<% } %>
-<% } %>
-
-<% // Documentation %>
-## Documentation
-
-<% if (isCli) { %>
-For full API reference, see the [DOCUMENTATION.md][docs] file.
-<% } else { %>
-<% docs = docs.split("\n").slice(3).join("\n"); %>
-<%- docs %>
-<% } %>
+Install this script (located in [`lib/index.js`](/lib/index.js)) via [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (in Chrome/Chromium) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (in Firefox).
 
 <% // How to contribute %>
 ## How to contribute

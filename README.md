@@ -21,9 +21,7 @@ Brings the old header links back.
 
 ## Installation
 
-Install this script (located in [`lib/index.js`](/lib/index.js)) via Tampermonkey (in Chrome/Chromium) or Greasemonkey (in Firefox).
-
-## Documentation
+Install this script (located in [`lib/index.js`](/lib/index.js)) via [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (in Chrome/Chromium) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (in Firefox).
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
