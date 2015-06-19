@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/github-old-header/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/github-old-header"
+  "homepage": "https://github.com/IonicaBizau/github-old-header",
+  "blah": {
+      "ex_img": "http://i.imgur.com/Otx9HcQ.png"
+  }
 }

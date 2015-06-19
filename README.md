@@ -17,9 +17,11 @@
 
 Brings the old header links back.
 
+![github-old-header](http://i.imgur.com/Otx9HcQ.png)
+
 ## Installation
 
-Install this script via Tampermonkey (in Chrome/Chromium) or Greasemonkey (in Firefox).
+Install this script (located in [`lib/index.js`](/lib/index.js)) via Tampermonkey (in Chrome/Chromium) or Greasemonkey (in Firefox).
 
 ## Documentation
 
