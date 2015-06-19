@@ -1,7 +1,14 @@
 {
     "name": "GitHub Old Header",
-    "version": "2.0.0",
+    "short_name": "github-old-header",
+    "version": "2.1.0",
     "manifest_version": 2,
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
     "description": "Brings the old header links back.",
     "permissions": ["https://*/*"],
     "content_scripts" : [{
