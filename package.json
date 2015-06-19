@@ -1,0 +1,24 @@
+{
+  "name": "github-old-header",
+  "version": "1.0.0",
+  "description": "Brings the old header links back.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/github-old-header.git"
+  },
+  "keywords": [
+    "github",
+    "old",
+    "header"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/github-old-header/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/github-old-header"
+}
