@@ -1,10 +1,18 @@
 #!/usr/bin/env node
 
+// Dependencies
 var Barbe = require("barbe")
   , Fs = require("fs")
+  , UglifyJS = require("uglify-js")
   ;
 
+// Constants
 const LIB_CONTENT = Fs.readFileSync(__dirname + "/../lib/index.js", "utf-8");
 const EXT_CONTENT = Fs.readFileSync(__dirname + "/../extension/tmpl.js", "utf-8");
 
-Fs.writeFileSync(__dirname + "/../extension/index.js", Barbe(EXT_CONTENT, { lib: LIB_CONTENT }));
+// Uglify the library code
+Fs.writeFileSync(__dirname + "/../extension/index.js", Barbe(EXT_CONTENT, {
+    lib: UglifyJS.minify(LIB_CONTENT, {
+        fromString: true
+    }).code.replace(/\"/g, "\\\"")
+}));
