@@ -21,7 +21,13 @@ Brings the old header links back.
 
 ## Installation
 
-Install this script (located in [`lib/index.js`](/lib/index.js)) via [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (in Chrome/Chromium) or [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (in Firefox).
+If you are using Chrome/Chromium you can install [this extension I wrote](https://chrome.google.com/webstore/detail/github-old-header/bbencfiifelhglgknaheifiekmjndlek).
+It's just a faster way to install the same thing.
+
+If you don't want to install the extension, you have the alternative to add the script located in [`lib/index.js`](/lib/index.js)) to:
+
+ - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (in Chrome/Chromium)
+ - [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), if you are using Firefox
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
