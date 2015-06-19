@@ -1,0 +1,11 @@
+{
+    "name": "GitHub Old Header",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Brings the old header links back.",
+    "permissions": ["https://*/*"],
+    "content_scripts" : [{
+        "matches" : [ "https://github.com/*"],
+        "js" : ["extension/index.js"]
+    }]
+}

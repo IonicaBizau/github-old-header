@@ -5,6 +5,6 @@ var Barbe = require("barbe")
   ;
 
 const LIB_CONTENT = Fs.readFileSync(__dirname + "/../lib/index.js", "utf-8");
-const EXT_CONTENT = Fs.readFileSync(__dirname + "/../ext/index.js", "utf-8");
+const EXT_CONTENT = Fs.readFileSync(__dirname + "/../extension/index.js", "utf-8");
 
-Fs.writeFileSync(__dirname + "/../ext/index.js", Barbe(EXT_CONTENT, { lib: LIB_CONTENT }));
+Fs.writeFileSync(__dirname + "/../extension/index.js", Barbe(EXT_CONTENT, { lib: LIB_CONTENT }));
