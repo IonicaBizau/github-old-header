@@ -22,7 +22,26 @@
   },
   "homepage": "https://github.com/IonicaBizau/github-old-header",
   "blah": {
-    "ex_img": "http://i.imgur.com/Otx9HcQ.png"
+    "ex_img": "http://i.imgur.com/Otx9HcQ.png",
+    "title": "GitHub Old Header",
+    "show_installation": false,
+    "installation": [
+      {
+        "h2": "Installation"
+      },
+      {
+        "p": [
+          "If you are using Chrome/Chromium you can install [this extension I wrote](https://chrome.google.com/webstore/detail/github-old-header/bbencfiifelhglgknaheifiekmjndlek). It's just a faster way to install the same thing.",
+          "If you don't want to install the extension, you have the alternative to add the script located in [`lib/index.js`](/lib/index.js)) to:"
+        ]
+      },
+      {
+        "ul": [
+          "[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) (in Chrome/Chromium)",
+          "[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/), if you are using Firefox"
+        ]
+      }
+    ]
   },
   "devDependencies": {},
   "dependencies": {
