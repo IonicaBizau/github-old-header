@@ -1,6 +1,6 @@
 {
   "name": "github-old-header",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "Brings the old header links back.",
   "main": "lib/index.js",
   "scripts": {
@@ -47,5 +47,16 @@
   "dependencies": {
     "uglify-js": "^2.4.23",
     "barbe": "^2.0.0"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
