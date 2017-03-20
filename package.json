@@ -1,6 +1,6 @@
 {
   "name": "github-old-header",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "description": "Brings the old header links back.",
   "main": "lib/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "old",
     "header"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/github-old-header/issues"
@@ -52,12 +52,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
