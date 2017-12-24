@@ -11,6 +11,7 @@
 
 ## Installation
 
+
 If you are using Chrome/Chromium you can install [this extension I wrote](https://chrome.google.com/webstore/detail/github-old-header/bbencfiifelhglgknaheifiekmjndlek). It's just a faster way to install the same thing.
 
 If you don't want to install the extension, you have the alternative to add the script located in [`lib/index.js`](/lib/index.js)) to:
